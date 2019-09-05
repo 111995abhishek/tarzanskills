@@ -1,2 +1,11 @@
 # tarzanskills
-practise rapo for python program
+github
+branching in github
+linux commands
+add
+commit
+push
+mkdir
+pwd
+cd
+python basic programs,volume of sphere,time problem
