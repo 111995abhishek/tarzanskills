@@ -1,0 +1,15 @@
+student_name=str(input("enter the student name"))
+age=int(input("enter the age"))
+clas=int(input("enter the class"))
+physics=float(input("enter the physics marks"))
+chemistry=float(input("enter theb chemistry marks"))
+maths=float(input("enter the maths marks"))
+bio=float(input("enter the bio marks"))
+social_studies=float(input("enter the social_studies marks"))
+eng=float(input("enter the eng marks"))
+hindi=float(input("enter the hindi marks"))
+total_marks=physics+chemistry+maths+bio+social_studies+eng+hindi
+average=total_marks/7
+print("average is",average)
+percentage=round(average,2)
+print(percentage)
