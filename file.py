@@ -106,10 +106,13 @@
 
 
 
-with open("varun.jpeg","rb") as rf:
-    with open("tarzanskills.png","wb") as wf:
-        chunk_size=4096
-        rf_chunk=rf.read(chunk_size)
-        while len(rf_chunk)>0:
-            wf.write(rf_chunk)
-            rf_chunk=rf.read(chunk_size)
+#with open("varun.jpeg","rb") as rf:
+ #   with open("tarzanskills.png","wb") as wf:
+  #      chunk_size=4096
+   #     rf_chunk=rf.read(chunk_size)
+    #    while len(rf_chunk)>0:
+     #       wf.write(rf_chunk)
+      #      rf_chunk=rf.read(chunk_size)
+dict_inventory={'rope':1,'torch':6,'gold coin':42,'dagger':1,'arrow':12}
+for keys,values in dict_inventory:
+    print()
